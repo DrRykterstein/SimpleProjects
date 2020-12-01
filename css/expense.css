@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    font-family: lora;
+}
+
+.wrapper {
+    /* position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%; */
+    border-radius: 5px;
+    border: 1px solid var(--blue);
+    width: 600px;
+    padding: 1rem;
+    margin: 7.35rem auto;
+}
+
+.title, .sub-title {
+    text-align: center;
+}
+
+.sub-title {
+    color: var(--green);
+    margin: .5rem 0 1.5rem 0;
+}
+
+/* input section */
+.input-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+.input-list {
+    display: flex;
+}
+
+.input-list-name {
+    grid-column: span 2;
+}
+
+.input-title {
+    padding-right: .5rem;
+    font-size: 20px;
+}
+
+.input-item {
+    padding: .25rem;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.input-item[type="text"] {
+    font-size: 16px;
+}
+
+/* btn and total section */
+.btn-total-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 0;
+    width: 60.3%;
+}
+
+.total {
+    display: flex;
+    align-items: flex-end; 
+}
+
+.total-title {
+    padding-right: .5rem;
+}
+
+.total-number {
+    font-size: 18px;
+    /* color: var(--green);
+    font-weight: 600; */
+}
+
+.submit-container {
+    text-align: center;
+}
+
+.separator {
+    width: 75%;
+    height: 1px;
+    background-color: #e2e2e2;
+    margin: 1.5rem auto;
+}
+
+/* style table */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 0 1rem;
+    text-align: left;
+}
+
+.cross {
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+    color: var(--blue);
+}
+
+th {
+    color: var(--green);
+    font-size: 18px;
+    padding: 1rem;
+}
+
+.cross:hover {
+    color: white;
+    background-color: var(--blue);
+}
+
+/* media queries */
+@media only screen and (max-width: 630px) {
+    .wrapper {
+        width: 450px;
+    }
+
+    .btn-total-container {
+        width: 63.5%;
+    }
+}

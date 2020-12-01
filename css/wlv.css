@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+  font-family: PT Sans;
+}
+
+body {
+  background-color: var(--body);
+}
+
+.monolith {
+  text-align: center;
+}
+
+.main-body {
+  /* position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%; */
+  width: 500px;
+  margin: 9.7rem auto;
+  padding: 1rem 1rem 0 1rem;
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.main-body > * {
+  margin-bottom: 1rem;
+}
+
+.main-title {
+  padding: 1rem;
+  font-size: 40px;
+  border-bottom: 1px solid var(--separator);
+}
+
+.preface {
+  font-size: 18px;
+}
+
+/* total section */
+.total-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.total-item {
+  display: flex;
+  align-items: flex-end;
+}
+
+.total-item > * {
+  padding: 0 .25rem;
+}
+
+.total-title {
+  font-size: 24px;
+  color: var(--green);
+}
+
+.total-num {
+  font-size: 22px;
+}
+
+/* text area and button section */
+.btn {
+  font-size: inherit;
+}
+
+.text-body {
+  padding: .5rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 100%;
+  font-size: inherit;
+}
+
+/* vowel array section */
+.vowel-array-container {
+  display: none;
+}
+
+.vowel-array-container > * {
+  margin: .5rem 0;
+}
+
+.separator {
+  height: 1px;
+  background-color: var(--separator);
+  width: 300px;
+  margin: 0 auto;
+}
+
+.vowel-text-body {
+  width: 100%;
+  border-radius: 5px;
+  font-size: inherit;
+  padding: .5rem;
+}

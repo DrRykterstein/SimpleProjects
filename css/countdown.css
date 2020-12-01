@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&display=swap');
+
+.main {
+  font-family: MuseoModerno;
+  height: 86.1vh;
+  background-color: rgb(48, 48, 48);
+  padding: 7rem 0;
+  text-align: center;
+}
+
+.clock-excerpt {
+  color: white;
+}
+
+.clock-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock-item {
+  color: var(--glowBlue);
+  font-size: 150px;
+  padding: 0 .5rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-input {
+  margin: 0 1rem 2rem 1rem;
+  padding: .5rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: transparent;
+  filter: invert(100%);
+  font-size: 18px;
+}
+
+#submit {
+  font-size: inherit;
+}
+
+#submit:hover {
+  color: white!important; 
+}
+
+@media only screen and (max-width: 700px) {
+  .clock-item {
+    font-size: 125px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .clock-item {
+    font-size: 100px;
+  }
+
+  .main {
+    padding: 8rem 0;
+  }
+}
