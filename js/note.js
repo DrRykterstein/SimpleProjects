@@ -7,7 +7,7 @@ const mainContainer = document.querySelector('.wrapper')
 // function that returns the new note container of an element
 function findContainerAncestor(el) {
     let thisNote = el
-
+    
     while (!thisNote.classList.contains('new-note-container')) {
         thisNote = thisNote.parentElement
     }
