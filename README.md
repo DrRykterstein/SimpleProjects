@@ -1,5 +1,5 @@
 # Simple Combined Web App
-8 simple projects built in HTML, CSS and vanilla Javascript combined into a single website.
+8 simple projects built in HTML, CSS, PHP and vanilla Javascript combined into a single website.
 
 ## Project Information
 Project Un: Preview App:
