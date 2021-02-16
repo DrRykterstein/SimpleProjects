@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 # Simple Combined Web App
 8 simple projects built in HTML, CSS and vanilla Javascript combined into a single website.
 
 ## Project Information
-Project Un: Preview App
-=======
 Project Un: Preview App:
->>>>>>> 52447d7b9d57d4dc237771214b95b409b6ce6bc0
 Displays a simple modal when the 'Preview' button is clicked. Modal is removed upon clicking delete button. Modal can also be opened upon pressing the 's' key and closed upon pressing the 'esc' key.
 
 Project Deux: TODO App:
