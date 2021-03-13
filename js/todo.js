@@ -33,7 +33,7 @@ function todo() {
 
     // delete list item when cross is clicked
     cross.onclick = () => {
-        setTimeout(() => {li.style.display = 'none'}, 100);
+        setTimeout(() => li.style.display = 'none', 100);
     }
 }
 
